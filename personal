@@ -1,0 +1,6 @@
+[user]
+	email = david@djsp.eu
+	name = David Joaquín Shourabi Porcel
+
+[include]
+	path = keys/personal

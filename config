@@ -9,3 +9,6 @@
 	show = diff-highlight | less -FX
 	diff = diff-highlight | less -FX
 	log = diff-highlight | less -FX
+
+[includeIf "gitdir:~/dev/personal/**"]
+	path = personal
