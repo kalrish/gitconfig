@@ -1,3 +1,6 @@
 [core]
 	editor = vim
 	pager = less -FX
+
+[commit]
+	gpgsign = true
