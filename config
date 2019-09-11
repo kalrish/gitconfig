@@ -4,3 +4,8 @@
 
 [commit]
 	gpgsign = true
+
+[pager]
+	show = diff-highlight | less -FX
+	diff = diff-highlight | less -FX
+	log = diff-highlight | less -FX
