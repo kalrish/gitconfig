@@ -12,3 +12,6 @@
 
 [includeIf "gitdir:~/dev/personal/**"]
 	path = personal
+
+[includeIf "gitdir:~/dev/smaato/**"]
+	path = smaato

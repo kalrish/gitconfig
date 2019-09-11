@@ -1,0 +1,6 @@
+[user]
+	email = david.porcel@smaato.com
+	name = David Joaquín Shourabi Porcel
+
+[include]
+	path = keys/smaato
