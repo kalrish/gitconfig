@@ -30,3 +30,6 @@
 
 [includeIf "gitdir:~/dev/glawit/**"]
 	path = personal
+
+[includeIf "gitdir:~/dev/mustup/**"]
+	path = personal
