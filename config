@@ -10,6 +10,9 @@
 	diff = diff-highlight | less -FX
 	log = diff-highlight | less -FX
 
+[credential]
+	helper = libsecret
+
 [includeIf "gitdir:~/dev/personal/**"]
 	path = personal
 
