@@ -27,3 +27,6 @@
 
 [includeIf "gitdir:~/dev/pipeduct/**"]
 	path = personal
+
+[includeIf "gitdir:~/dev/glawit/**"]
+	path = personal
