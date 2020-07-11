@@ -19,6 +19,9 @@
 [includeIf "gitdir:~/playground/**"]
 	path = personal
 
+[includeIf "gitdir:/mnt/vibes/"]
+	path = personal
+
 [includeIf "gitdir:~/dev/smaato/**"]
 	path = smaato
 
