@@ -16,6 +16,9 @@
 [includeIf "gitdir:~/dev/personal/**"]
 	path = personal
 
+[includeIf "gitdir:~/.vim/"]
+	path = personal
+
 [includeIf "gitdir:~/playground/**"]
 	path = personal
 
