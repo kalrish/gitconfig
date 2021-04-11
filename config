@@ -13,29 +13,11 @@
 [credential]
 	helper = libsecret
 
-[includeIf "gitdir:~/dev/personal/**"]
-	path = personal
-
-[includeIf "gitdir:~/.vim/"]
-	path = personal
-
-[includeIf "gitdir:~/playground/**"]
-	path = personal
-
-[includeIf "gitdir:/mnt/vibes/"]
+[include]
 	path = personal
 
 [includeIf "gitdir:~/dev/smaato/**"]
 	path = smaato
-
-[includeIf "gitdir:~/dev/pipeduct/**"]
-	path = personal
-
-[includeIf "gitdir:~/dev/glawit/**"]
-	path = personal
-
-[includeIf "gitdir:~/dev/mustup/**"]
-	path = personal
 
 [filter "lfs"]
 	clean = git-lfs clean -- %f
