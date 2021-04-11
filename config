@@ -6,9 +6,9 @@
 	gpgsign = true
 
 [pager]
-	show = diff-highlight | less -FX
-	diff = diff-highlight | less -FX
-	log = diff-highlight | less -FX
+	show = /usr/share/git/diff-highlight/diff-highlight | less -FX
+	diff = /usr/share/git/diff-highlight/diff-highlight | less -FX
+	log = /usr/share/git/diff-highlight/diff-highlight | less -FX
 
 [credential]
 	helper = libsecret
